@@ -1,6 +1,6 @@
 ---
 - name: Temporary Sudo
-  #hosts: "{{ _hosts | default(omit) }}"
+  hosts: "{{ _hosts | default(omit) }}"
   become: true
   gather_facts: false
   vars:
