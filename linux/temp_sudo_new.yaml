@@ -5,7 +5,7 @@
   gather_facts: false
   vars:
     sudo_cleanup: true
-    sudo_user: undef
+    sudo_user: test
     sudo_time: 10
     sudo_units: minutes
 
