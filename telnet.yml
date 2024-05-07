@@ -1,0 +1,8 @@
+---
+- name: install telnet package in a node
+  hosts: all
+  tasks:
+  - name: Install the latest version of Apache from the testing repo
+    ansible.builtin.dnf:
+    name: telnet
+    state: present
