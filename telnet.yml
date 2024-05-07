@@ -4,5 +4,5 @@
   tasks:
   - name: Install the latest version of Apache from the testing repo
     ansible.builtin.dnf:
-    name: telnet
-    state: present
+      name: telnet
+      state: present
